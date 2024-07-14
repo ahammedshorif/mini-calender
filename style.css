@@ -1,4 +1,26 @@
 body{
     margin: 0px;
-    
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #888 ;
+
+}
+.calendar-container{
+    background-color: aliceblue;
+    width: 300px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,3);
+    overflow: hidden;
+}
+.month-name{
+    margin: 0;
+    background-color: orangered;
+    color: white;
+    padding:10px;
+    font-size: 25px;
+    font-weight: bold;
+
 }
