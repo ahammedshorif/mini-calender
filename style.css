@@ -5,6 +5,7 @@ body{
     height: 100vh;
     align-items: center;
     background-color: #888 ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 .calendar-container{
@@ -17,10 +18,29 @@ body{
 }
 .month-name{
     margin: 0;
-    background-color: orangered;
+    background-color: #d2691e;
     color: white;
     padding:10px;
     font-size: 25px;
     font-weight: bold;
 
+}
+
+.day-name{
+    font-size: 20px;
+    color: darkgray ;
+
+}
+.day-number{
+    margin: 0px;
+    font-size: 75px;
+    font-weight: bold;
+
+}
+
+.year{
+    margin: 20px 0px;
+    font-size: 20px;
+    color: darkgrey;
+    font-weight: bold;
 }
